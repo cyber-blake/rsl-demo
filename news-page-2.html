@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="assets/93093613890b20d31d18.css" rel="stylesheet" type="text/css"/>
+<title>Центральная библиотека города</title>
+<style>.demo-info{padding:8px 18px;background:#eef4e8;color:#294635;text-align:center;font:12px/1.5 Arial,sans-serif}.demo-info:target{outline:3px solid #9b702d}.demo-search{max-width:900px;margin:40px auto;padding:0 20px}.demo-search input{padding:12px;width:100%}.demo-result{padding:22px 0;border-bottom:1px solid #d5dfcf}.demo-result a{color:#294635}.demo-result p{margin-top:12px}</style></head>
+<body><div class="demo-info" id="demo-info">Демонстрация разработки · Статическая версия · Вход, CMS и отправка комментариев недоступны</div>
+<div class="site-container">
+<style>
+.rsl-header { width:100%; min-width:0; margin:0; padding:0; background:#fff; color:#243629; border-bottom:1px solid #dce3d8; font-family:Arial,"Segoe UI",sans-serif; }
+.rsl-header *, .rsl-header *::before, .rsl-header *::after { box-sizing:border-box; }
+.rsl-header .rsl-header-shell { max-width:1420px; margin:auto; padding:28px clamp(18px,5.6vw,92px) 0; }
+.rsl-header .rsl-header-top { display:flex; align-items:center; justify-content:space-between; gap:24px; padding-bottom:25px; }
+.rsl-header a { color:inherit; text-decoration:none; }
+.rsl-header .rsl-brand { display:flex; align-items:center; gap:15px; min-width:0; }
+.rsl-header .rsl-brand-mark { flex:none; width:48px; height:54px; color:#31533c; }
+.rsl-header .rsl-brand-title { display:block; max-width:27ch; font:500 clamp(20px,2.2vw,29px)/1.15 Georgia,serif; letter-spacing:-.025em; }
+.rsl-header .rsl-brand-caption { display:block; margin-top:7px; font-size:12px; line-height:1.5; color:#59665b; }
+.rsl-header .rsl-header-account, .rsl-header .rsl-menu-toggle { display:inline-flex; align-items:center; justify-content:center; gap:9px; min-height:44px; padding:10px 18px; border:1px solid #a4b09f; border-radius:24px; background:#fff; color:#243629; font:600 14px/1.3 Arial,sans-serif; cursor:pointer; flex-shrink:0; }
+.rsl-header .rsl-menu-toggle { display:none; }
+.rsl-header .rsl-header-panel { display:flex; align-items:center; justify-content:space-between; gap:24px; border-top:1px solid #e5e9e1; }
+.rsl-header .rsl-header-nav { display:flex; flex-wrap:wrap; gap:4px 25px; margin:0; padding:0; background:transparent; }
+.rsl-header .rsl-header-nav a { display:block; padding:18px 0 15px; border-bottom:3px solid transparent; font-size:14px; font-weight:600; line-height:1.5; }
+.rsl-header .rsl-header-nav a[aria-current="page"] { border-color:#31533c; }
+.rsl-header .rsl-header-nav a:hover { color:#526e43; border-bottom-color:#a6b89a; }
+.rsl-header .rsl-header-account:hover, .rsl-header .rsl-menu-toggle:hover { background:#eef4e8; }
+.rsl-header :is(a,button,input):focus-visible { outline:3px solid #9b702d; outline-offset:4px; }
+.rsl-header .rsl-header-search { display:flex; flex:0 1 300px; min-width:0; margin:10px 0; border:1px solid #b1bdab; border-radius:24px; background:#f8faf6; }
+.rsl-header .rsl-header-search input { width:100%; min-width:0; height:42px; padding:10px 15px; border:0; border-radius:24px; background:transparent; color:#243629; font:14px Arial,sans-serif; }
+.rsl-header .rsl-header-search button { flex:none; width:44px; min-height:42px; border:0; border-radius:24px; background:transparent; color:#243629; cursor:pointer; }
+.rsl-header .rsl-header-search svg { width:19px; height:19px; vertical-align:middle; }
+.rsl-header .rsl-sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+@media(max-width:900px) {
+ .rsl-header .rsl-header-shell { padding-top:20px; }
+ .rsl-header .rsl-header-top { flex-wrap:wrap; gap:16px; padding-bottom:18px; }
+ .rsl-header .rsl-brand { flex:1 1 260px; }
+ .rsl-header .rsl-brand-caption { display:none; }
+ .rsl-header.rsl-header-ready .rsl-menu-toggle { display:inline-flex; }
+ .rsl-header .rsl-header-panel { flex-direction:column; align-items:stretch; gap:10px; padding-bottom:18px; }
+ .rsl-header.rsl-header-ready .rsl-header-panel[hidden] { display:none; }
+ .rsl-header .rsl-header-nav { flex-direction:column; gap:0; }
+ .rsl-header .rsl-header-nav a { padding:13px 4px; border-bottom:1px solid #e5e9e1; }
+ .rsl-header .rsl-header-nav a[aria-current="page"] { background:#eef4e8; padding-left:12px; border-left:3px solid #31533c; }
+ .rsl-header .rsl-header-search { flex:auto; margin:4px 0 0; }
+}
+@media(max-width:480px) {
+ .rsl-header .rsl-brand { flex-basis:100%; }
+ .rsl-header .rsl-brand-mark { width:36px; height:42px; }
+ .rsl-header .rsl-brand-title { font-size:22px; overflow-wrap:anywhere; }
+ .rsl-header .rsl-menu-toggle { margin-left:auto; }
+}
+</style>
+<header class="rsl-header" data-rsl-header="">
+<div class="rsl-header-shell">
+<div class="rsl-header-top">
+<a class="rsl-brand" href="index.html">
+<svg aria-hidden="true" class="rsl-brand-mark" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 48 54"><path d="M24 12C17 7 9 6 3 7v34c8-1 14 1 21 6 7-5 13-7 21-6V7c-6-1-14 0-21 5Zm0 0v35M9 15c4 0 7 1 10 3M9 23c4 0 7 1 10 3M29 18c3-2 6-3 10-3M29 26c3-2 6-3 10-3"></path></svg>
+<span><span class="rsl-brand-title">Центральная городская библиотека</span><span class="rsl-brand-caption">Культурный и информационный центр города</span></span>
+</a>
+<a class="rsl-header-account" data-demo-only="true" href="#demo-info">Войти <span aria-hidden="true">↗</span></a>
+<button aria-controls="rsl-header-panel" aria-expanded="true" class="rsl-menu-toggle" type="button"><span aria-hidden="true">☰</span> <span data-menu-label="">Меню</span></button>
+</div>
+<div class="rsl-header-panel" id="rsl-header-panel">
+<nav aria-label="Основная навигация" class="rsl-header-nav">
+<a href="index.html">Главная</a>
+<a aria-current="page" href="news.html">Новости</a>
+<a href="index.html#hours">Часы работы</a>
+<a href="index.html#contacts">Контакты</a>
+</nav>
+<form action="search.html" class="rsl-header-search" method="get" role="search">
+<label class="rsl-sr-only" for="rsl-header-query">Поиск по сайту</label>
+<input id="rsl-header-query" maxlength="100" name="q" placeholder="Поиск по сайту" required="" type="search" value=""/>
+<button aria-label="Найти" type="submit"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><circle cx="10" cy="10" r="6.5"></circle><path d="m15 15 6 6"></path></svg></button>
+</form>
+</div>
+</div>
+</header>
+
+<div class="main-content">
+<!-- Левая колонка - навигация -->
+<!-- Центральная колонка - основная информация -->
+<!-- Центральная колонка - основная информация -->
+<main class="center-content">
+<section class="news-archive">
+<!-- Заголовок страницы -->
+<div class="news-archive-header">
+<h1>Новости библиотеки</h1>
+<p>
+      Последние события, объявления и мероприятия нашей библиотеки.
+    </p>
+</div>
+<!-- Поиск и фильтрация -->
+<form action="search.html" class="news-archive-filters" method="get">
+<div class="archive-filter-search">
+<label for="news-search">Поиск новостей</label>
+<input id="news-search" maxlength="100" name="q" placeholder="Название или текст новости..." type="search" value=""/>
+</div>
+
+<div class="archive-filter-actions">
+<button class="archive-filter-submit" type="submit">
+        Найти
+      </button>
+<a class="archive-filter-reset" href="news.html">
+        Сбросить
+      </a>
+</div>
+</form>
+<!-- Количество найденных новостей -->
+<!-- Карточки новостей -->
+<div class="news-archive-grid">
+<article class="archive-card">
+<!-- Обложка -->
+<a class="archive-card-image" href="article-c321d0072c55.html">
+<div class="archive-image-placeholder">
+<span>Новости библиотеки</span>
+</div>
+</a>
+<!-- Содержание карточки -->
+<div class="archive-card-content">
+<div class="archive-card-date">
+            29.12.2025
+          </div>
+<h2>
+<a href="article-c321d0072c55.html">
+              Готовы ли мы к появлению беспилотного транспорта?
+            </a>
+</h2>
+<p>Технологии изменили наши ожидания к времени и доступности: мы привыкли постоянно быть на связи и получать доступ к услугам одним касанием. В последние годы цифровизация активно проникает и в сферу транспорта, традиционн…</p>
+<a class="archive-card-more" href="article-c321d0072c55.html">
+            Читать далее →
+          </a>
+</div>
+</article>
+<article class="archive-card">
+<!-- Обложка -->
+<a class="archive-card-image" href="article-23e6ebe086a2.html">
+<div class="archive-image-placeholder">
+<span>Новости библиотеки</span>
+</div>
+</a>
+<!-- Содержание карточки -->
+<div class="archive-card-content">
+<div class="archive-card-date">
+            29.12.2025
+          </div>
+<h2>
+<a href="article-23e6ebe086a2.html">
+              Липецкий губернатор пообещал жителям «выполнить социальные обязательства»
+            </a>
+</h2>
+<p>Губернатор Липецкой области Игорь Артамонов заявил, что 2026 год будет сложным в финансовом отношении, однако заверил, что социальные обязательства перед жителями региона будут выполнены в полном объеме. «Мы гарантирова…</p>
+<a class="archive-card-more" href="article-23e6ebe086a2.html">
+            Читать далее →
+          </a>
+</div>
+</article>
+<article class="archive-card">
+<!-- Обложка -->
+<a class="archive-card-image" href="article-22c9b5b2c042.html">
+<div class="archive-image-placeholder">
+<span>Новости библиотеки</span>
+</div>
+</a>
+<!-- Содержание карточки -->
+<div class="archive-card-content">
+<div class="archive-card-date">
+            29.12.2025
+          </div>
+<h2>
+<a href="article-22c9b5b2c042.html">
+              Lorem ipsum
+            </a>
+</h2>
+<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. N…</p>
+<a class="archive-card-more" href="article-22c9b5b2c042.html">
+            Читать далее →
+          </a>
+</div>
+</article>
+<article class="archive-card">
+<!-- Обложка -->
+<a class="archive-card-image" href="article-eed820110916.html">
+<img alt="" loading="lazy" src="assets/49f1d54f55fe980d0716.jpg"/>
+</a>
+<!-- Содержание карточки -->
+<div class="archive-card-content">
+<div class="archive-card-date">
+            15.12.2025
+          </div>
+<h2>
+<a href="article-eed820110916.html">
+              В библиотеке снова действие - опубликовали вторую статью
+            </a>
+</h2>
+<p>в понедельник днём програмисты библиотеки создали вторую статью в базе данных! невиданное упорство и производительность!!</p>
+<a class="archive-card-more" href="article-eed820110916.html">
+            Читать далее →
+          </a>
+</div>
+</article>
+<article class="archive-card">
+<!-- Обложка -->
+<a class="archive-card-image" href="article-3e19bfe70934.html">
+<img alt="" loading="lazy" src="assets/539fa084628507b25848.jpg"/>
+</a>
+<!-- Содержание карточки -->
+<div class="archive-card-content">
+<div class="archive-card-date">
+            10.12.2025
+          </div>
+<h2>
+<a href="article-3e19bfe70934.html">
+              soon we will stand invincivble
+            </a>
+</h2>
+<p>Command &amp; Conquer: Red Alert: Retaliation is the PlayStation port of the Red Alert expansions, Counterstrike and The Aftermath, bundled together and upgraded with exclusive FMV cutscenes. The cutscenes introduced two ne…</p>
+<a class="archive-card-more" href="article-3e19bfe70934.html">
+            Читать далее →
+          </a>
+</div>
+</article>
+</div>
+<!-- Пагинация -->
+<nav aria-label="Страницы новостей" class="archive-pagination">
+<a href="news.html">
+          ← Назад
+        </a>
+<a href="news.html">
+            1
+          </a>
+<span aria-current="page" class="active">
+            2
+          </span>
+</nav>
+</section>
+</main>
+<!-- Правая колонка - новости и баннеры -->
+<aside class="right-sidebar">
+<section class="news-section">
+<h2>Архив новостей</h2>
+<p>
+    Все публикации, события и объявления
+    Центральной городской библиотеки.
+  </p>
+<a href="news.html">
+    Смотреть все новости →
+  </a>
+</section>
+<div class="banner">
+<h3>Присоединяйтесь к книжному клубу</h3>
+<div class="banner-placeholder">
+              Баннер: Книжный клуб "Литературные вечера"
+            </div>
+</div>
+<div class="banner">
+<h3>Электронный каталог</h3>
+<div class="banner-placeholder">
+              Баннер: Поиск в электронном каталоге
+            </div>
+</div>
+</aside>
+</div>
+<footer>
+<div class="footer-content">
+<div class="footer-section">
+<h3>Контактная информация</h3>
+<p>г. Москва, ул. Читательская, 15</p>
+<p>тел: +7 (495) 123-45-67</p>
+<p>email: info@library.ru</p>
+</div>
+<div class="footer-section">
+<h3>Полезные ссылки</h3>
+<a href="#about">О библиотеке</a>
+<a href="#services">Услуги</a>
+<a href="#resources">Ресурсы</a>
+<a href="#news">Новости</a>
+</div>
+<div class="footer-section">
+<h3>Социальные сети</h3>
+<a href="#vk">Вмаксе</a>
+<a href="#telegram">Запретограм</a>
+</div>
+</div>
+<div class="copyright">
+          © 2026 Центральная городская библиотека. Все права защищены.
+        </div>
+</footer>
+</div>
+<script defer="" src="demo.js"></script></body>
+</html>
